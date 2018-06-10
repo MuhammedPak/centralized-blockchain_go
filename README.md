@@ -7,7 +7,7 @@ If the central node responds positively, the miner joins the network.
 Then the miner node gets all the blocks from the Central node and waits to receive transaction list.
 When we run the Send_TransactionList the transaction list goes to the central node.
 The central node sends the incoming transactions to the miner node.
-Miner node finds the new block with proof of work and sends the center node.
+Miner node calculate merkle tree and finds the new block with proof of work and sends the center node.
 The central node checks the correctness of the block, if it is true it appends it to its database and sends it to the miner nodes.
 
 
